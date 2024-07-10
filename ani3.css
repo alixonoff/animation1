@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #151515;
+}
+.container{
+      display: flex;
+}
+.element{
+  
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    background: dodgerblue;
+    animation: ani 1.5s infinite;
+    transform: rotate(30deg);
+    opacity: .7;
+}
+@keyframes ani{
+    to{
+        transform: rotate(360deg);
+    }
+}

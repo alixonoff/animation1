@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #151515;
+}
+.spiner{
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    background-color: orangered;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 25px solid #151515;
+    border-top: 20px solid indigo;
+    animation: ani 2.5s linear infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@keyframes ani{
+    to{
+        transform: rotate(360deg);
+    }
+}

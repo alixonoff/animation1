@@ -21,6 +21,7 @@ body{
     border: 3px solid #fe444425;
     border-top: 3px solid red;
     animation: ani 3s linear infinite;
+    background: greenyellow;
 }
 .circle2{
     width: 130px;
@@ -29,6 +30,7 @@ body{
 border: 3px solid #fe444425;
 border-top: 3px solid #f9ce24;
 animation: ani 2s linear infinite;
+background: dodgerblue;
 }
 @keyframes ani {
     0%{
@@ -39,6 +41,3 @@ animation: ani 2s linear infinite;
     }
 
 }    
-@media screen {
-    
-}
